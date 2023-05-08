@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url("https://thumbs.dreamstime.com/b/protection-secure-online-banking-network-data-save-money-safe-secure-shield-workplace-concept-blue-background-221932742.jpg"); */
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+}
+
+#nav-bar {
+  background-color: #175974ea;
+  position:sticky;
+  top: 0;
+  z-index: 5;
+  float:initial;
+}
+
+.nav-link:hover {
+  background-color: rgb(10, 49, 134);
+}
+
+.navbar {
+  padding: 0 !important;
+}
+
+navbar-brand img {
+  height: 40px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 4px 10px;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+.fa-bars {
+  color: #fd0932;
+  font-size: 30p !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/*---banner section--*/
+#main {
+  text-align: center;
+}
+
+
+/*---service section---*/
+#features1 {
+  text-align: center;
+  padding: 8% 5%;
+}
+
+
+
+#features {
+  text-align: center;
+  padding: 26% 0%;
+   background-image: url("https://home.kpmg/content/dam/kpmgblogs/in/images/post/2022/04/mantra-digital-bank-license-neo-banks.jpg");
+ background-repeat: no-repeat;
+}
+#features h1{
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(99, 45, 150);
+  position: relative;
+bottom: 260px;
+margin-left: 140px;
+}
+
+#features p{
+  text-align: left;
+  font-family:sans-serif;
+  color:white;
+  position: relative;
+bottom: 220px;
+margin-left: 140px;
+}
+
+.features1 h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.features h3 {
+  padding: 5px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: '';
+  background: #797a28;
+  height: 5px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(63px);
+}
+
+.title::after {
+  content: '';
+  background: #797a28;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translatey(8px);
+}
+
+#features .btn-primary {
+  box-shadow: none;
+  padding: 10px 25px;
+  border: none;
+  align-content: center;
+  background-image: linear-gradient(to right, #9cba17, #5ed7e7)
+}
+
+/* Action*/
+#action {
+  background-color: #229ccc;
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  color: rgb(250, 246, 246);
+}
+
+.main {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 10px 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer {
+  background-color: #175974ea;
+  padding: 0.75px;
+  text-align: center;
+  bottom: 100px;
+  width: 100%;
+  color: white;
+}

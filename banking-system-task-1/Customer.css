@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar
+{
+    background-color: #175974ea;
+    position:sticky;
+    top: 0;
+    z-index: 5;
+    float:initial;
+}
+.navbar
+{
+	padding: 0 !important;
+}
+
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:rgb(14, 8, 8) !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #110902bb!important;
+
+}
+
+.nav-link{
+    float: right;
+    color: #0a1a17e0!important;
+
+}
+
+.nav-link:hover{
+    background-color: rgb(214, 228, 250);
+}
+/* navbar css ends here  */
+#main
+{
+	text-align: center;
+background-color:white; 
+
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.46875rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.125rem;
+    
+}
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgba(55, 153, 120, 0.877)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(161, 135, 48)!important;
+} 
